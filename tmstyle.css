@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+#createmod{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px black;
+    border-radius: 3px;
+    width: 13%;
+    height: 50px;
+    margin: 14px;
+    font-size: 16px;
+}
+#createmod:hover{
+    scale: 1.06;
+    transition: 200ms ease-in-out;
+}
+#nazwa{
+    height: 50px;
+    width: 50%;
+    color: white;
+    font-size: large;
+    font-family: Verdana;
+    text-align: center;
+    margin-left: 1%;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+select{
+    width: 7%;
+    height: 50px;
+    color: white;
+    margin: 6px;
+    border-radius: 4px;
+}
+option{
+    background-color: gray;
+}
+label{
+    color: white;
+    font-size: large;
+    margin: 6px;
+}
+#kontener{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.stzad{
+   background-color: #262727; 
+   width: 30%;
+   height:130px;
+   margin: 8px;
+   border-radius: 3px;
+   justify-content: center;
+   color: white;
+   font-family: Verdana;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 5px;
+}
+.stzad p {
+   width: 100%; 
+   word-break: break-word;
+   background-color: #262727; 
+}
+#trash{
+    width: 4%;
+    height: auto;
+    margin-left: 15%;
+    position: absolute;
+    padding-top: 0.5%;
+}
+#trash:hover{
+    scale: 1.2;
+    transition: 200ms ease-in-out;
+}
+.hiden{
+    display: none; 
+    padding-left:87%;
+}
+  
+#trash:hover + .hiden{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+.X{
+    width: 2%;
+    height: auto;
+    background-color: #262727;
+    position: absolute;
+    margin-left: 27%;
+    margin-bottom: 7%;
+}
+
+.zatwierdz{
+    width: 6%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 4.5%;
+}

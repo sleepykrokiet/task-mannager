@@ -36,7 +36,7 @@ function wyswietl(){
         status = "wykonane"
     }
     let zadinfo = document.createElement("p")
-    zadinfo.innerText = zadanie.nazwa + " - " + status + " - " + zadanie.wybory
+    zadinfo.innerText = zadanie.nazwa + " - " + zadanie.wybory
     let malyx = document.createElement("img")
     malyx.src = "image2.png"
     malyx.classList.add("X")

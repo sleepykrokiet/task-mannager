@@ -34,9 +34,10 @@ function wyswietl(){
     let status = "w trakcie"
     if (zadanie.wykonane) {
         status = "wykonane"
+        mzadanie.classList.add("wykonane")
     }
     let zadinfo = document.createElement("p")
-    zadinfo.innerText = zadanie.nazwa + " - " + zadanie.wybory
+    zadinfo.innerText = zadanie.nazwa +  " - " + zadanie.wybory
     let malyx = document.createElement("img")
     malyx.src = "image2.png"
     malyx.classList.add("X")

@@ -103,3 +103,12 @@ label{
     position: absolute;
     margin-top: 4.5%;
 }
+.stzad.wykonane {
+    border: 2px dashed #ffffff !important;
+    color: #00ff00 !important;
+}
+
+.stzad.wykonane p {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
